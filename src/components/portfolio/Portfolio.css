@@ -1,0 +1,108 @@
+/* .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 23rem var(--swiper-pagination-bullet-horizontal-gap, 4px);
+}
+
+.swiper-pagination-bullet .swiper-pagination-bullet-active {
+    margin-top: 23rem;
+} */
+
+
+
+/* .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px;
+    left: 0;
+    width: 100%
+} */
+/* .testimonials_container{
+    margin-bottom: 20rem;
+} */
+/* .swiper-pagination{
+    color: red;
+} */
+
+.portfolio_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio_item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio_item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio_item-image {
+    /* border-radius: 1.5rem; */
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio_item-image img {
+    object-fit: fill;
+    height: 23vh;
+}
+
+.portfolio_item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.description {
+    color: var(--color-light);
+    padding-bottom: 2rem;
+}
+
+.portfolio_item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.left_arrow{
+    
+    margin-top: 2rem;
+    /* font-size: 17px; */
+    display: flex;
+    justify-content: center;
+}
+.left_arrow-icon{
+    font-weight: bolder;
+    margin-top: 0.1rem;
+    margin-right: 0.7rem;
+}
+/* .................................media query for medium devices................................... */
+@media screen and (max-width:1024px) {
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    /* .portfolio_item-image{
+        width: 10vw;
+        height: 10vh;
+        border-radius: 1.5rem;
+        overflow: hidden;
+    } */
+}
+
+/* .................................media query for small devices................................... */
+@media screen and (max-width:600px) {
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    /* .portfolio_item-image{
+        width: 10vw;
+        height: 10vh;
+        border-radius: 1.5rem;
+        overflow: hidden;
+    } */
+
+}

@@ -1,0 +1,74 @@
+.container .testimonials_container{
+    width: 40%;
+    padding-bottom: 4rem;
+}
+.client_avatar{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.3rem solid var(--color-primary-variant);
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes blink { 
+    50% 
+    {
+         border-color:#2a2c47 ; 
+    }  
+}
+
+.testimonials{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.client_review{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 1rem;
+}
+/* .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    margin-top: 4rem;
+} */
+/* target the active bullet */
+/* span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: blue;
+    opacity: 1;
+  }
+   */
+  /* target all bullets */
+  /* .swiper-pagination-bullet {
+   margin-top: 10rem;
+  } */
+.swiper-pagination-clickable .swiper-pagination-bullet{
+background: var(--color-primary);
+
+}
+/* .................................media query for medium devices................................... */
+@media screen and (max-width:1024px) {
+    .container .testimonials_container{
+        width: 60%;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        margin-top: 6rem;
+    }
+}
+/* .................................media query for small devices................................... */
+@media screen and (max-width:600px) {
+    .container .testimonials_container{
+        width: var(--container-width-sm);
+    }
+    .client_review{
+        width: var(--container-width-sm);
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        margin-top: 11rem;
+    }
+}
