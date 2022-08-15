@@ -1,5 +1,6 @@
 import React from "react";
 import "./Review.css";
+
 import client1 from "../../images/pic-1.png";
 import client2 from "../../images/pic-2.png";
 import client3 from "../../images/pic-3.png";
@@ -22,35 +23,35 @@ function Review() {
       avatar: client1,
       name: "Abdullah Zafar",
       review:
-        "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.",
+        "With Rafay help, we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much more easy to use, has tons of more features than before and is incredibly easy to maintain. We could not be more happy with our new website! Thanks Rafay!",
     },
     {
       id: 2,
       avatar: client2,
       name: "Ayesha ",
       review:
-        "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.",
+        "With Rafay help, we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much more easy to use, has tons of more features than before and is incredibly easy to maintain. We could not be more happy with our new website! Thanks Rafay!",
     },
     {
       id: 3,
       avatar: client3,
       name: "Shayan Abbasi",
       review:
-        "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.",
+        "With Rafay help, we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much more easy to use, has tons of more features than before and is incredibly easy to maintain. We could not be more happy with our new website! Thanks Rafay!",
     },
     {
       id: 4,
       avatar: client4,
       name: "Muhammad Faisal",
       review:
-        "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.",
+        "With Rafay help, we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much more easy to use, has tons of more features than before and is incredibly easy to maintain. We could not be more happy with our new website! Thanks Rafay!",
     },
     {
       id: 5,
       avatar: client5,
       name: "Qamar Mujtaba",
       review:
-        "We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth Asset Management is made up of a team of expert, committed and experienced people with a passion for financial markets. Our goal is to achieve continuous.",
+        "With Rafay help, we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much more easy to use, has tons of more features than before and is incredibly easy to maintain. We could not be more happy with our new website! Thanks Rafay!",
     },
   ];
   return (
